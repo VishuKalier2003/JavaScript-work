@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+span {
+    border-radius: 20%;
+    margin: 1px;
+    padding: 1px;
+    color: darkblue;
+}
+
+h2 {
+    position: relative;
+    background-color: rgb(120, 120, 255);
+    color: blue;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    margin: 5px;
+    padding: 6px;
+    font-weight: bolder;
+}
